@@ -98,3 +98,4 @@ d$hour<-as.numeric(str_sub(d$Time,1,2))
 names(d)
 head(d$Time)
 d$min<- as.numeric(str_sub(d$Time,4,5))
+d
